@@ -1,0 +1,40 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+                          
+	          
+
+
+                
+		     inteiro lista [10]
+		     inteiro num_elementos = u.numero_elementos(lista)
+			inteiro contador = 0
+
+
+			
+			
+			
+			enquanto(contador< num_elementos) { 
+                    escreva("informe um valor(",contador,") ")
+				leia(lista[contador])
+				contador ++								
+				
+}
+
+            	para(inteiro i = 0;  i < num_elementos ; i++){ 
+            		
+            		
+            	se(lista[i] % 2 == 0) {
+
+            		escreva("Numero par encontrado--> ", i, "\n")
+            		
+            		
+            		}
+            		
+            		
+            		
+      }
