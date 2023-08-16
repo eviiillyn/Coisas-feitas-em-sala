@@ -1,0 +1,57 @@
+//ele tá do jeito "feio"
+
+
+programa
+{
+	
+	funcao inicio()
+	{                                                           //matrizes
+		cadeia nomes [ 3 ][ 3 ]
+		
+		nomes[ 0 ]  [ 0 ] = "Rick"
+          nomes[ 0 ]  [ 1 ] = "Morty"
+	 	nomes[ 0 ]  [ 2 ] = "Summer"
+
+	 	
+	 	nomes[ 1 ]  [ 0 ] = "Madona"
+          nomes[ 1 ]  [ 1 ] = "Monaliza"
+	 	nomes[ 1 ]  [ 2 ] = "Mônica"
+
+
+		nomes[ 2 ]  [ 0 ] = "Harry Potter"
+          nomes[ 2 ]  [ 1 ] = "Hermione Granger"
+	 	nomes[ 2 ]  [ 2 ] = "Rony Weasley"
+	 	
+
+		 	para(inteiro i=0; i < 3; i++){
+	
+		 		escreva(nomes[ 0 ] [ i ], "\n")
+	
+		 		
+			}
+			
+			para(inteiro i=0; i < 3; i++){
+	
+		 		escreva(nomes[ 1 ] [ i ], "\n")
+	
+		 		
+			}
+			
+			para(inteiro i=0; i < 3; i++){
+	
+		 		escreva(nomes[ 2 ] [ i ], "\n")
+	
+		 		
+			}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
