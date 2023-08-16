@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+                                                           //matrizes
+                  		cadeia nomes [ 3 ][ 3 ]
+                  		
+                  		nomes[ 0 ]  [ 0 ] = "Rick"
+                            nomes[ 0 ]  [ 1 ] = "Morty"
+                  	 	nomes[ 0 ]  [ 2 ] = "Summer"
+                  
+                  
+                  	 	para(inteiro i=0; i < 3; i++){
+                  
+                  	 	escreva(nomes[ 0 ] [ i ], "\n")
+}
+		}
+}
